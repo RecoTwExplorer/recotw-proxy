@@ -61,4 +61,4 @@ const remoteAddr: string = typeof argv.ip === 'string' ? argv.ip : '157.112.147.
 const listenAddr: string = typeof argv.listen === 'string' ? argv.listen : '127.0.0.1';
 const port: number|string = typeof argv.port === 'number' || typeof argv.port === 'string' ? argv.port : 4100;
 const root: string = typeof argv.root === 'string' ? argv.root : './';
-(new server.server( {host, remoteAddr, listenAddr, port, root, logger} )).setup_middleware().createServer();
+(new server.server( {host, remoteAddr, listenAddr, port, root, logger} )).setupMiddleware().createServer();

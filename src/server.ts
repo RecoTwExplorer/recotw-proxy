@@ -44,7 +44,7 @@ export module server {
     }
 
 
-    public setup_middleware(): server {
+    public setupMiddleware(): server {
       const proxyOptions: ProxyOption = url.parse( 'http://' + this.option.remoteAddr );
       proxyOptions.preserveHost = true;
       proxyOptions.headers = {host: this.option.host};
