@@ -1,0 +1,31 @@
+{
+  "name": "recotw-proxy",
+  "version": "0.0.1-dev",
+  "description": "Standalone server for RecoTw Explorer",
+  "main": "/lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "start": "ts-node src/cli.ts"
+  },
+  "author": "hinaloe",
+  "repository": "https://github.com/RecoTwExplorer/recotw-proxy",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "connect": "^3.4.1",
+    "proxy-middleware": "^0.15.0",
+    "serve-static": "^1.10.2",
+    "yargs": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "bin": {
+    "recotw-proxy": "./lib/cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.7",
+    "ts-node": "^0.5.5"
+  }
+}

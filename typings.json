@@ -1,0 +1,11 @@
+{
+  "name": "recotw-proxy",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "colors": "github:DefinitelyTyped/DefinitelyTyped/colors/colors.d.ts",
+    "connect": "github:DefinitelyTyped/DefinitelyTyped/connect/connect.d.ts#9d4364560ec6422b18c9b86735413ad04bf5b93c",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#48c1e3c1d6baefa4f1a126f188c27c4fefd36bff",
+    "yargs": "github:DefinitelyTyped/DefinitelyTyped/yargs/yargs.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c"
+  }
+}
