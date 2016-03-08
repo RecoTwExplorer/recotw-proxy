@@ -36,5 +36,5 @@ Options
 
 ### Routing
 
-`/api/recotw/:foo` :: `http://api.recotw.black/:foo`
+`/api/recotw/:foo` :: `http://api.recotw.black/:foo`  
 `/` :: cwd or selected on `--root`
